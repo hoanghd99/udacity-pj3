@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: config-secret
+data: 
+  AWS_BUCKET: project3-2990-2779-0702-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: project3rds
+  POSTGRES_HOST: project3.cjuldzdofxcl.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+
+  
+
+
+
+
